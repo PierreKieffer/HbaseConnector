@@ -1,0 +1,31 @@
+
+###############################
+#### General configuration ####
+###############################
+
+# HBASE Config
+hbase.zookeeper.quorum: "10.81.161.7"
+hbase.zookeeper.property.clientPort: "2181"
+hbase.master: "10.81.161.7:60000"
+zookeeper.znode.parent: "/hbase-unsecure"
+TABLE_NAME: "station"
+
+
+# HADOOP
+HADOOP_HOME_DIR: "/usr/hdp/3.0.0.0-1634/hadoop"
+HADOOP_CORE_SITE: "/usr/hdp/3.0.0.0-1634/hadoop/etc/hadoop/core-site.xml"
+HDFS_DIR: "hdfs:///.../"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
